@@ -1,0 +1,48 @@
+.skills {
+    min-height: 70vh;
+    background-color: #fafff8;
+    color: #1f3050;
+}
+
+.skills-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    max-width: 50%;
+    margin-left: 25%;
+}
+.skill {
+    margin: 2em;
+    position: relative;
+}
+
+.skill-name {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(141, 148, 153, 0.4);
+    color: #fff;
+    visibility: hidden;
+    opacity: 0;
+}
+
+.skill-img {
+    width: 100px;
+    height: 100px;
+    min-width: 100px;
+    max-width: 100px;
+    border-radius: 5px;
+}
+
+.skill:hover .skill-img {
+    width: 101px;
+    height: 101px;
+    box-shadow: 0 0 10px 2px #1f3050;
+}
+
+.skill:hover .skill-name {
+    visibility: visible;
+    opacity: 1;
+}

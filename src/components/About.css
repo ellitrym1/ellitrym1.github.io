@@ -1,0 +1,32 @@
+.about {
+    min-height: 100vh;
+    background-color: #fafff8;
+    color: #36454f;
+}
+
+.profile-img {
+    padding: 0.1em;
+    border: 1px solid black;
+}
+.about-container {
+    width: 80%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-left: 10%;
+    margin-top: 3em;
+}
+
+.textbox-container {
+    width: 800px;
+    height: 600px;
+    border: 1px solid black;
+}
+
+.textbox-head {
+    border-bottom: 1px solid black;
+    height: 50px;
+}
+
+.textbox-body {
+}

@@ -1,5 +1,19 @@
-.App {
-    background-color: beige;
-    min-width: 100%;
-    height: 100vh;
+* {
+    margin: 0;
+    padding: 0;
 }
+
+.App {
+    text-align: center;
+}
+
+.section {
+    padding: 4em;
+}
+
+.title {
+    margin-bottom: 2em;
+}
+/* #1f3050
+#fafff8
+#232528 */

@@ -1,0 +1,27 @@
+.landing {
+    min-height: 100vh;
+    background-color: #1f3050;
+    color: #fafff8;
+    position: relative;
+    padding-top: 1em;
+}
+
+.landing-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+h1 {
+    font-size: 8em;
+}
+
+h3 {
+    font-size: 4em;
+}
+
+h5 {
+    font-size: 2em;
+}

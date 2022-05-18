@@ -1,0 +1,15 @@
+ul {
+    display: flex;
+    justify-content: center;
+}
+
+ul li {
+    list-style-type: none;
+    padding: 1.5em 0.75em 1em;
+    margin-top: 2em;
+}
+
+.social {
+    width: 50px;
+    height: 50px;
+}

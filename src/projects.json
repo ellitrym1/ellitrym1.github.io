@@ -1,0 +1,23 @@
+[
+    {
+        "name": "Vedur",
+        "url": "https://vedur",
+        "demo": "https://vedur",
+        "img": "https://images.pexels.com/photos/3726314/pexels-photo-3726314.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "technologies": ["js", "html", "css"]
+    },
+    {
+        "name": "discord-bot",
+        "url": "https://discord-bot",
+        "demo": "https://discord-bot",
+        "img": "https://images.pexels.com/photos/3726314/pexels-photo-3726314.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "technologies": ["js"]
+    },
+    {
+        "name": "F1 tyre",
+        "url": "https://discord-bot",
+        "demo": "https://discord-bot",
+        "img": "https://images.pexels.com/photos/3726314/pexels-photo-3726314.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "technologies": ["python"]
+    }
+]
