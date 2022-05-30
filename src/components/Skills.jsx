@@ -1,9 +1,9 @@
 import React, { Component } from "react";
 import "./Skills.css";
-const skills = require("../skills.json");
 
 class Skills extends Component {
     render() {
+        const skills = this.props.skills;
         return (
             <div className="skills section">
                 <h5 className="title">SKILLS</h5>
@@ -15,7 +15,7 @@ class Skills extends Component {
                                 <img
                                     src={skill.img}
                                     alt={skill.name}
-                                    className="skill-img"
+                                    className="skill-img rounded-div"
                                 />
                             </div>
                         );
