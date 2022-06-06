@@ -1,13 +1,28 @@
 .contact {
-    min-height: 100vh;
+    min-height: fit-content;
+    padding-top: 5.5em;
+    padding-bottom: 5.5em;
     background-color: #1f3050;
     color: aliceblue;
 }
 
 .contact-container .form-row {
     margin: 1em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .form-row label {
     font-size: 1.5em;
+    margin-right: 0.75em;
+}
+
+.form-row input,
+.form-row textarea {
+    border: none;
+}
+
+.form-row input {
+    height: 2em;
 }

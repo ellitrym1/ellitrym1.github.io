@@ -16,7 +16,7 @@ export default class Contact extends Component {
                             />
                         </div>
                         <div className="form-row">
-                            <label htmlFor="contact-email">Name: </label>
+                            <label htmlFor="contact-email">Email: </label>
                             <input
                                 type="text"
                                 name="contact-email"
@@ -24,14 +24,15 @@ export default class Contact extends Component {
                             />
                         </div>
                         <div className="form-row">
-                            <label htmlFor="contact-query">Name: </label>
+                            <label htmlFor="contact-message">Message: </label>
                             <textarea
-                                name="contact-query"
-                                id="contact-query"
+                                name="contact-message"
+                                id="contact-message"
                                 cols="30"
                                 rows="10"
                             ></textarea>
                         </div>
+                        <button type="submit">Submit</button>
                     </form>
                 </div>
             </div>
