@@ -28,7 +28,7 @@ class Socials extends Component {
                             <img
                                 alt="instagram"
                                 className="social"
-                                src="https://cdn-icons.flaticon.com/png/512/3955/premium/3955024.png?token=exp=1647373582~hmac=4a30219f3f1f91976605733e2bfa698b"
+                                src="https://cdn-icons-png.flaticon.com/512/2111/2111463.png"
                             />
                         </a>
                     </li>
