@@ -28,8 +28,8 @@ export default class Contact extends Component {
                             <textarea
                                 name="contact-message"
                                 id="contact-message"
-                                cols="30"
-                                rows="10"
+                                cols="60"
+                                rows="20"
                             ></textarea>
                         </div>
                         <button type="submit">Submit</button>
