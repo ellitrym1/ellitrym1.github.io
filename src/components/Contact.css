@@ -3,3 +3,11 @@
     background-color: #1f3050;
     color: aliceblue;
 }
+
+.contact-container .form-row {
+    margin: 1em;
+}
+
+.form-row label {
+    font-size: 1.5em;
+}
