@@ -10,7 +10,11 @@ class Projects extends Component {
                 <div className="projects-container">
                     {projects.map((project) => {
                         return (
-                            <div key={project.name} className="project ">
+                            <a
+                                href={project.url}
+                                key={project.name}
+                                className="project"
+                            >
                                 <h5>{project.name}</h5>
                                 <img
                                     src={project.img}
@@ -22,7 +26,7 @@ class Projects extends Component {
                                         return <li>{technology}</li>;
                                     })}
                                 </ul>
-                            </div>
+                            </a>
                         );
                     })}
                 </div>

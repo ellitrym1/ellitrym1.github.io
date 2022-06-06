@@ -22,6 +22,11 @@
 .rounded-div {
     border-radius: 10px;
 }
+
+a {
+    text-decoration: none;
+    color: aliceblue;
+}
 /* #1f3050
 #fafff8
 #232528 */
