@@ -21,6 +21,7 @@
 .form-row input,
 .form-row textarea {
     border: none;
+    border-radius: 1%;
 }
 
 .form-row input {
@@ -35,4 +36,5 @@
 
 .contact-container button {
     padding: 0.3em 0.55em;
+    font-size: 1em;
 }

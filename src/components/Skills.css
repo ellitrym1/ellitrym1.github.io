@@ -33,6 +33,7 @@
     height: 100px;
     min-width: 100px;
     max-width: 100px;
+    object-fit: contain;
 }
 
 .skill:hover .skill-img {
@@ -44,4 +45,5 @@
 .skill:hover .skill-name {
     visibility: visible;
     opacity: 1;
+    color: #1f3050;
 }
