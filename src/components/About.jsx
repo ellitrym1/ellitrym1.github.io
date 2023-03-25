@@ -16,7 +16,20 @@ class About extends Component {
                     />
                     <div className="textbox-container rounded-div">
                         <div className="textbox-head"></div>
-                        <div className="textbox-body"></div>
+                        <div className="textbox-body">
+                            Enthusiastic full stack developer with a keen eye
+                            for detail. Well versed in ES6 Javascript and Core
+                            Java. Proficient in the MERN stack, Jest, MySQL,
+                            Bootstrap, TailwindCSS. Currently learning PHP to
+                            further expand my skillset. Able to adapt to new
+                            technologies and resources as needed.
+                            <br />
+                            <br />
+                            In my spare time I like to play video games or just
+                            chill watching some youtube videos. I like to go on
+                            long hikes or just a casual morning run to help
+                            maintain a positive mindset.
+                        </div>
                     </div>
                 </div>
             </div>

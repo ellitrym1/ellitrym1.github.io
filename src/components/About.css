@@ -11,7 +11,7 @@
 .about-container {
     width: 80%;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
     margin-left: 10%;
     margin-top: 3em;
@@ -21,6 +21,7 @@
     width: 800px;
     height: 600px;
     border: 1px solid black;
+    margin-left: 2em;
 }
 
 .textbox-head {
@@ -29,4 +30,6 @@
 }
 
 .textbox-body {
+    padding: 1em;
+    font-size: 1.5rem;
 }

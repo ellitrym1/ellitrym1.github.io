@@ -8,8 +8,8 @@ import Contact from "./components/Contact";
 
 import { useState } from "react";
 
-const project = require("./projects.json");
-const skill = require("./skills.json");
+const project = require("./assets/projects.json");
+const skill = require("./assets/skills.json");
 
 function App() {
     const [projects] = useState(project);
