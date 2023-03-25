@@ -1,6 +1,6 @@
 .landing {
     min-height: 100vh;
-    background-color: #1f3050;
+    background-image: url("../assets/bg.png");
     color: aliceblue;
     display: flex;
     justify-content: center;
