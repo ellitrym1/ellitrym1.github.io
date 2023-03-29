@@ -12,9 +12,9 @@ class About extends Component {
                         width="300"
                         height="300"
                         alt=""
-                        className="profile-img rounded-div"
+                        className="profile-img rounded-div box-shadow"
                     />
-                    <div className="textbox-container rounded-div">
+                    <div className="textbox-container rounded-div box-shadow">
                         <div className="textbox-head"></div>
                         <div className="textbox-body">
                             Enthusiastic full stack developer with a keen eye

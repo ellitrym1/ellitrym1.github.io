@@ -10,23 +10,46 @@ class Projects extends Component {
                 <div className="projects-container">
                     {projects.map((project) => {
                         return (
-                            <a
-                                href={project.url}
-                                key={project.name}
-                                className="project"
-                            >
+                            <div className="project">
                                 <h5>{project.name}</h5>
                                 <img
                                     src={project.img}
                                     alt={project.name}
-                                    className="rounded-div"
+                                    className="rounded-div box-shadow"
                                 />
-                                <ul className="technologies">
-                                    {project.technologies.map((technology) => {
-                                        return <li>{technology}</li>;
-                                    })}
-                                </ul>
-                            </a>
+
+                                <div style={{ paddingTop: "20px" }}>
+                                    <a
+                                        className="github-url"
+                                        href={project.githuburl}
+                                    >
+                                        <img
+                                            src="https://cdn-icons-png.flaticon.com/512/3291/3291695.png"
+                                            alt="github-url"
+                                        />
+                                    </a>
+                                    {project.demourl !== "" ? (
+                                        <a
+                                            className="demo-url"
+                                            href={project.demourl}
+                                        >
+                                            <img
+                                                src="https://cdn-icons-png.flaticon.com/512/5130/5130427.png"
+                                                alt="demo-url"
+                                            />
+                                        </a>
+                                    ) : (
+                                        ""
+                                    )}
+                                    <ul className="technologies">
+                                        {project.technologies.map(
+                                            (technology) => {
+                                                return <li>{technology}</li>;
+                                            }
+                                        )}
+                                    </ul>
+                                </div>
+                            </div>
                         );
                     })}
                 </div>

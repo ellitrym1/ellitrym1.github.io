@@ -15,10 +15,12 @@
 .project {
     margin: 3em;
     padding: 0 0.1em;
+    min-width: 300px;
+    max-width: 300px;
 }
 
 .project h5 {
-    font-size: 1.5em;
+    font-size: 1.75em;
     margin-bottom: 1em;
 }
 
@@ -28,13 +30,36 @@
     object-fit: cover;
 }
 
+.project .technologies {
+    max-width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 0.85em;
+    margin-top: 5px;
+}
+
 .project .technologies > li {
     margin-top: 0.75em;
     padding: 0.5em;
 }
 
-.project:hover {
+.project .github-url img {
+    background-color: white;
+    border-radius: 5%;
+    width: 35px;
+    height: 20px;
+    margin-right: 20px;
+}
+
+.project .demo-url img {
+    background-color: white;
+    border-radius: 5%;
+    width: 35px;
+    height: 20px;
+}
+
+/* .project:hover {
     box-shadow: 0 0 10px 2px RGBA(180, 180, 180, 0.3);
     background-color: RGBA(180, 180, 180, 0.05);
     border-radius: 4%;
-}
+} */

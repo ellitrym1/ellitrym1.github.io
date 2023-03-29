@@ -12,16 +12,36 @@
         "img": "https://cdn-icons-png.flaticon.com/512/5968/5968292.png"
     },
     {
+        "name": "Typescript",
+        "img": "https://cdn-icons-png.flaticon.com/512/5968/5968381.png"
+    },
+    {
         "name": "Java",
         "img": "https://cdn-icons-png.flaticon.com/512/226/226777.png"
+    },
+    {
+        "name": "Kotlin",
+        "img": "https://cdn-icons-png.flaticon.com/512/4300/4300493.png"
+    },
+    {
+        "name": "C#",
+        "img": "https://cdn-icons-png.flaticon.com/512/6132/6132221.png"
     },
     {
         "name": "ReactJS",
         "img": "https://cdn-icons-png.flaticon.com/512/1260/1260667.png"
     },
     {
+        "name": "VueJS",
+        "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Vue.js_Logo_2.svg/2367px-Vue.js_Logo_2.svg.png"
+    },
+    {
         "name": "Bootstrap",
         "img": "https://cdn-icons-png.flaticon.com/512/5968/5968672.png"
+    },
+    {
+        "name": "TailwindCSS",
+        "img": "https://viget.imgix.net/tailwind-on-gray.png?auto=format%2Ccompress&crop=focalpoint&fit=crop&fp-x=0.5&fp-y=0.5&h=1280&ixlib=php-2.1.1&q=90&w=1280&s=c59bb939dcc8298544a1300e6c43673c"
     },
     {
         "name": "NodeJS",
@@ -29,11 +49,7 @@
     },
     {
         "name": "ExpressJS",
-        "img": "https://cdn.icon-icons.com/icons2/2699/PNG/512/expressjs_logo_icon_169186.png"
-    },
-    {
-        "name": "REST API",
-        "img": "https://cdn-icons-png.flaticon.com/512/603/603197.png"
+        "img": "https://youteam.io/blog/wp-content/uploads/2022/04/expressjs_logo.png"
     },
     {
         "name": "MongoDB",
@@ -42,5 +58,25 @@
     {
         "name": "MySQL",
         "img": "https://cdn-icons-png.flaticon.com/512/919/919836.png"
+    },
+    {
+        "name": "Postgresql",
+        "img": "https://cdn-icons-png.flaticon.com/512/5968/5968342.png"
+    },
+    {
+        "name": "REST API",
+        "img": "https://cdn-icons-png.flaticon.com/512/603/603197.png"
+    },
+    {
+        "name": "Git",
+        "img": "https://cdn-icons-png.flaticon.com/512/6577/6577287.png"
+    },
+    {
+        "name": "Figma",
+        "img": "https://cdn-icons-png.flaticon.com/512/5968/5968705.png"
+    },
+    {
+        "name": "Adobe xd",
+        "img": "https://cdn-icons-png.flaticon.com/512/5611/5611129.png"
     }
 ]

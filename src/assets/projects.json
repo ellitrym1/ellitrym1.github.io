@@ -1,30 +1,62 @@
 [
     {
-        "name": "Vedur",
-        "url": "https://vedur",
-        "demo": "https://vedur",
-        "img": "https://randompicturegenerator.com/img/picture-generator/54e7d14b4250a414f1dc8460962e33791c3ad6e04e50744172297cdc924cc3_640.jpg",
-        "technologies": ["js", "html", "css"]
+        "name": "Portfolio",
+        "githuburl": "https://github.com/ellitrym1/ellitrym1.github.io",
+        "demourl": "ellitrym1.github.io",
+        "img": "https://caia.org/sites/default/files/styles/full_width/public/2022-03/portfolio_woman_reading.png?itok=MlsPIQrS",
+        "technologies": ["ReactJS", "JS", "CSS"]
     },
     {
-        "name": "discord-bot",
-        "url": "https://discord-bot",
-        "demo": "https://discord-bot",
-        "img": "https://randompicturegenerator.com/img/picture-generator/55e9dd4b4a57a414f1dc8460962e33791c3ad6e04e507440762e79d7944ecd_640.jpg",
-        "technologies": ["js"]
+        "name": "Vedur",
+        "githuburl": "https://github.com/ellitrym1/vedur",
+        "demourl": "",
+        "img": "https://randomwordgenerator.com/img/picture-generator/50e7d0444e4faa0df7c5d57bc32f3e7b1d3ac3e45659784972287fd192_640.jpg",
+        "technologies": ["ReactJS", "CSS", "NodeJS", "ExpressJS"]
+    },
+    {
+        "name": "Discord bot",
+        "githuburl": "https://github.com/ellitrym1/automover",
+        "demourl": "",
+        "img": "https://media.wired.com/photos/599cbdf191885f7b084d37f7/125:94/w_1374,h_1033,c_limit/Robot-Video.jpg",
+        "technologies": ["NodeJS", "ExpressJS", "DiscordAPI"]
     },
     {
         "name": "F1 tyre",
-        "url": "https://discord-bot",
-        "demo": "https://discord-bot",
-        "img": "https://images.pexels.com/photos/3726314/pexels-photo-3726314.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-        "technologies": ["python"]
+        "githuburl": "https://github.com/ellitrym1/F1TyreDegradationSimulationProject",
+        "demourl": "",
+        "img": "https://cdn-8.motorsport.com/images/amp/68yNxaD0/s1000/carlos-sainz-ferrari-sf-23-1.jpg",
+        "technologies": ["Python"]
     },
     {
         "name": "GautamGift",
-        "url": "https://discord-bot",
-        "demo": "https://discord-bot",
-        "img": "https://images.pexels.com/photos/3726314/pexels-photo-3726314.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-        "technologies": ["js", "css"]
+        "githuburl": "https://github.com/ellitrym1/gautamgift",
+        "demourl": "",
+        "img": "https://randomwordgenerator.com/img/picture-generator/55e6d74b4c5bae14f1dc8460962e33791c3ad6e04e5074417c2f73d5944dcd_640.jpg",
+        "technologies": [
+            "reactJS",
+            "TS",
+            "JS",
+            "TailwindCSS",
+            "CSS",
+            "Postgresql",
+            "NodeJS",
+            "ExpressJS"
+        ]
+    },
+    {
+        "name": "Resale",
+        "githuburl": "",
+        "demourl": "sasd",
+        "img": "https://randomwordgenerator.com/img/picture-generator/5ee3dc4a4a4faa0df7c5d57bc32f3e7b1d3ac3e456597641702c7cd291_640.jpg",
+        "technologies": [
+            "reactJS",
+            "TS",
+            "JS",
+            "TailwindCSS",
+            "CSS",
+            "Postgresql",
+            "NodeJS",
+            "ExpressJS"
+        ]
     }
 ]
