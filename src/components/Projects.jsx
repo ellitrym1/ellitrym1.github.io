@@ -22,6 +22,8 @@ class Projects extends Component {
                                     <a
                                         className="github-url"
                                         href={project.githuburl}
+                                        target="_blank"
+                                        rel="noreferrer"
                                     >
                                         <img
                                             src="https://cdn-icons-png.flaticon.com/512/3291/3291695.png"
